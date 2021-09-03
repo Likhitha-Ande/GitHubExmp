@@ -1,0 +1,124 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-01T15:34:22.705Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4693792100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "testSuite1.ContactFormSignUp.invokeBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Add Details to Basic details form",
+        "description": "",
+        "id": "navigate-to-mycontactsform;add-details-to-basic-details-form;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1242734600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "testSuite1.ContactFormSignUp.quit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2350444900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Go to mycontactsform site",
+            "match": {
+              "location": "testSuite1.ContactFormSignUp.GotoSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 265322500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Add the \"shivani\" and \"shivani@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shivani",
+                  "offset": 9
+                },
+                {
+                  "val": "shivani@gmail.com",
+                  "offset": 23
+                }
+              ],
+              "location": "testSuite1.ContactFormSignUp.EnterCredentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 100729100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter the \"Hello shivani\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hello shivani",
+                  "offset": 11
+                }
+              ],
+              "location": "testSuite1.ContactFormSignUp.AddMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2247433300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on submit Button",
+            "match": {
+              "location": "testSuite1.ContactFormSignUp.clickonSubmit()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ContactFormSignUp"
+          }
+        ]
+      }
+    ],
+    "name": "Navigate to MycontactsForm",
+    "description": "",
+    "id": "navigate-to-mycontactsform",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/testSuite1/ContactFormSignUp.feature",
+    "tags": [
+      {
+        "name": "@ContactFormSignUp",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
